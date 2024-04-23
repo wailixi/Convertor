@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebP to JPEG Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: #40E0D0">WebP to JPEG Converter</h1>
+    <input type="file" id="fileInput" accept="image/webp" onchange="convertToJPEG()">
+    <button id="convertButton" disabled>Convert</button>
+    <a id="downloadLink" style="display: none;" download="converted.jpg">Download JPEG</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
